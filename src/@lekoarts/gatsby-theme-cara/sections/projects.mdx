@@ -1,32 +1,55 @@
-## Projects
+import Card from "../components/card";
+import FAQ from "../components/faq";
 
-<ProjectCard
-  title="Tips & Tricks for Gatsby"
-  link="https://www.lekoarts.de/gatsby/tips-and-tricks-for-gatsby?utm_source=cara&utm_medium=Theme"
-  bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
->
-  A collection of short, but useful quick tips shared by me and the community
-  about Gatsby. From GraphQL over local development to deployment.
-</ProjectCard>
-<ProjectCard
-  title="Setting  up a yarn Workspace"
-  link="https://www.lekoarts.de/javascript/setting-up-a-yarn-workspace-with-typescript-eslint-and-cypress?utm_source=cara&utm_medium=Theme"
-  bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
->
-  A robust solution for multi-package repositories.
-</ProjectCard>
-<ProjectCard
-  title="Adding a Draft Feature to Gatsby"
-  link="https://www.lekoarts.de/garden/adding-a-draft-feature-to-gatsby?utm_source=cara&utm_medium=Theme"
-  bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
->
-  A solution with the createSchemaCustomization API.
-</ProjectCard>
-<ProjectCard
-  title="Theme UI Plugin for Figma"
-  link="https://www.lekoarts.de/design/introducing-the-theme-ui-plugin-for-figma?utm_source=cara&utm_medium=Theme"
-  bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
->
-  The Theme UI plugin for Figma allows for a workflow where Theme UI is the
-  starting point both for design & development.
-</ProjectCard>
+## About Measure V
+
+On October 24, 2023, Scotts Valley residents will be able to vote in a special
+mail-in ballot on Measure V, a proposed 7-year, **$168 annual tax applied to
+every parcel within the Scotts Valley School District**.
+
+<br />
+If 2/3 of Scotts Valley voters pass Measure V, it will generate over **$1 million
+a year** of supplemental funding to ensure SVUSD can:
+
+<Card bg="linear-gradient(to right, #009245 0%, #9fee21 100%)">
+  Pay competitive wages to SVUSD teachers, counselors, and staff
+</Card>
+<Card bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)">
+  Expand STEAM (Science Technology Engineering Arts and Math) programming
+</Card>
+<Card bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)">
+  Continue providing essential mental health services
+</Card>
+
+Measure V **replaces the current $108 annual parcel tax that expires in
+2024**, which generates $700,000 in supplemental school funding per year. The
+new parcel tax would take effect starting with the 2024-25 tax year.
+
+Every registered voter in Scotts Valley will be eligible to vote on this measure
+and will receive their ballot in the mail in September.
+
+<br />
+<br />
+## You May Be Asking...
+<br />
+
+<FAQ
+  question="Why do we need to pay special taxes to support our schools?"
+  answer="The vast majority (83%) of SVUSD revenue is provided by the State through the Local Control Funding Formula (LCFF). The LCFF has three major components: (1) a base amount per student, (2) supplemental dollars for each student in groups thought to require more resources to comparably educate (economically-disadvantaged and English-language learners), and (3) concentration funding for districts with more than 55% of their students receiving supplemental dollars. SVUSD receives only a small amount of the second pool and none of the third."
+/>
+<FAQ
+  question="Don’t our high property taxes fund the schools?"
+  answer="No, there are now only a limited number of school districts in California still receiving their State funding directly through local property tax payments.  These are known as ‘basic aid’ districts.  The State distributes funding to districts independent of the value of the property in that district, and instead focuses on the students and their needs. "
+/>
+<FAQ
+  question="Do other school districts have similar taxes?"
+  answer="Yes. Many California school districts use parcel tax revenue to supplement and fill gaps in funding. Two neighboring districts that are very similar to ours have adopted increased parcel taxes in recent years: Santa Cruz property owners pay $318 per year and Los Gatos property owners pay $335 per year. "
+/>
+<FAQ
+  question="How can I vote?"
+  answer="This is an all-mail ballot, which is simpler and less expensive, for both the District and the County, to not have to equip and staff physical voting locations for a single measure. Santa Cruz County was very successful with mail balloting during the pandemic, and we can expect it to be a very smooth process."
+/>
+<FAQ
+  question="When will I get my ballot and how can I turn it in?"
+  answer="Ballots will be sent approximately three weeks before the election day of Tuesday, October 24.  Each ballot will be provided with a prepaid, pre-addressed return envelope that can either be put in a regular U.S. postal mail drop location or at designated voting drop-off locations (for example, Scotts Valley City Hall or the County Government Building in Santa Cruz)."
+/>
