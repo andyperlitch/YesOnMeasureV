@@ -8,11 +8,11 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
-    siteTitle: `Vote Yes On Measure U`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
+    siteTitle: `Vote Yes On Measure V`,
+    siteTitleAlt: `Vote Yes on Measure V`,
+    siteHeadline: `Vote Yes on Measure V`,
     siteUrl: `http://supportourscottsvalleyschools.com`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteDescription: `Vote Yes On Measure V`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@lekoarts_de`,
